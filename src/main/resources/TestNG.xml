@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RestFulBooker_API_Testing_Automation" >
+    <listeners>
+        <listener class-name="com.erez.restfull.apitestingframework.listeners.TestStatusListener"/>
+        <listener class-name="com.erez.restfull.apitestingframework.listeners.AnnotationTransformer"/>
+    </listeners>
+    <test name="api sanity test">
+
+          <classes>
+              <class name="com.erez.restfull.apitestingframework.apitestsuite.LoginTest"/>
+          </classes>
+
+    </test>
+</suite>
